@@ -38,4 +38,35 @@ This application provides a comprehensive tool for analyzing stock information, 
 
 ## Usage
 
-Run the application:
++Run the application:
++```
++python stock_info_app.py
++```
++
++Enter a stock symbol in the input field and click "Search" to retrieve and display the stock information.
++
++## Dependencies
++
++- pandas
++- numpy
++- yfinance
++- polygon-api-client
++- plotly
++- PyQt5
++- PyQtWebEngine
++- textblob
++
++For specific versions, refer to the `requirements.txt` file.
++
++## Contributing
++
++Contributions are welcome! Please feel free to submit a Pull Request.
++
++## License
++
++This project is licensed under the MIT License - see the LICENSE file for details.
++
++## Acknowledgments
++
++- [Polygon.io](https://polygon.io/) for providing the stock data API
++- [yfinance](https://github.com/ranaroussi/yfinance) for additional financial data
